@@ -1,4 +1,4 @@
-# k8s-util - bitnami kubectl image with helm and gettext package
+# k8s-util - bitnami kubectl image with helm and gettext package included
 If you use helm to deploy some application dependecies like MongoDB or MySQL in a GitOps fashion, and use environment variables in your k8s manifests to easily manage multiple projects, you may need a docker image with kubectl, helm, and gettext tools included.
 
 Two common scenarios in my setups is similar to following codes:
