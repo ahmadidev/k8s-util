@@ -95,7 +95,7 @@ auth:
 ```yaml
 config:
   image: 
-    name: reg.apwa.ir/devops/k8s-util
+    name: ghcr.io/ahmadidev/k8s-util
     entrypoint: ['']
   variables:
     KUBE_NAMESPACE: "$CI_PROJECT_NAME-$CI_ENVIRONMENT_NAME"
